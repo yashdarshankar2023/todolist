@@ -1,5 +1,5 @@
 .App {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
@@ -52,17 +52,28 @@ button:hover {
   margin-top: 20px;
 }
 
-th, td {
+th,
+td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
 }
 
 th {
-  background-color: #4caf50;
+  background-color: rgb(100, 100, 184);
   color: white;
 }
 
 input[type="checkbox"] {
   margin-right: 8px;
+}
+.DeleteBtn {
+  background-color: rgb(199, 74, 74);
+}
+.DeleteBtn:hover {
+  background-color: rgb(231, 169, 169);
+}
+.totalAmount {
+  padding-left: 35vw;
+  padding-top: 5vh;
 }

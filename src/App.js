@@ -134,13 +134,13 @@ const App = () => {
               </td>
               <td>{todo.checked ? 'Completed' : 'Pending'}</td>
               <td>
-              <button onClick={() => handleDeleteTodo(todo._id)}>Delete</button>
+              <button onClick={() => handleDeleteTodo(todo._id) }className="DeleteBtn">Delete</button>
               </td>
             </tr>
           ))}
         </tbody>
       </table>
-      <div>
+      <div className='totalAmount'>
         <strong>Total Amount:</strong> ${calculateTotalAmount().toFixed(2)}
       </div>
     </div>
